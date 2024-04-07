@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-color: rgb(235, 235, 245);
+    max-width: 300px;
+    min-height: 1000px;
+}
+
+.main-screen{
+    background-color: #F5F5F5;
+    min-width:19rem;
+    min-height: 34rem;
+    margin:5rem 10rem;
+    border-radius: 15px;
+}
+.screen-text{
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+}
+.top-screen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+.top-images img{
+    width: 15px;
+    height: 15px;
+}
+
+.bottom-screen{
+    margin-top: -6.5rem;
+    margin-left: 8rem;
+    padding: 5px 100px;
+}
+
+.bottom-screen img{
+    width: 150px;
+    height: 10px;
+}

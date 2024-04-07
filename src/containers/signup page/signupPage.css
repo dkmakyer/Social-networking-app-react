@@ -1,0 +1,86 @@
+
+.page{
+    position: absolute;
+    transform: translateY(-10px);
+    margin-left:170px;
+    margin-top: -180px;
+    transform: translateY(-22rem);
+    width: 15rem;
+    margin-bottom:10rem ;
+    font-family: "Nunito", sans-serif;
+}
+.page h1{
+    font-size: 23px;
+    margin-bottom: 40px;
+    color: #3f4d24;
+}
+input{
+    background-color: #cccccc;
+    width: 17.8rem;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+label{
+    color: #6B8E23;
+}
+.signupButton{
+    margin-top: 2rem;
+    margin-bottom: 2rem ;
+    width: 17.8rem;
+    height: 2rem;
+    background-color: #688b22;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line1{
+    border: 1px solid #cccccc;
+    min-width: 8rem;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+.line2{
+    border: 1px solid #cccccc;
+    min-width: 7.6rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.buttons{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button{
+    margin-bottom: 10px;
+    color: #8d8787;
+    background-color: #cccccc;
+    
+    width: 17.8rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
