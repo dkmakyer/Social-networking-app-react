@@ -1,0 +1,26 @@
+.profile-page{  
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left:170px;
+    margin-top: -180px;
+    transform: translateY(-26rem);
+    max-width: 15rem;
+    width: 15rem;
+    margin-bottom:5rem ;
+    margin-left: 189px;
+}
+.profile-page h1:not(.current-page){
+    border: 1px solid #E8E8E8;
+    width: 50px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #E8E8E8; 
+}
+.current-page{
+    border: 1px solid #688b22;
+    width: 50px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #688b22;
+}

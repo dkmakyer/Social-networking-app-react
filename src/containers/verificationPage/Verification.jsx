@@ -19,7 +19,7 @@ const Verification = () => {
                 <p className='secondP'>Resend in 00:59</p>
             </div>
             <button className='verification-button'>Verify account</button>
-            <form action="">
+            <form className='verification-form' action="">
                 <button>1</button>
                 <button>2<p>ABC</p></button>
                 <button>3<p>DEF</p></button>

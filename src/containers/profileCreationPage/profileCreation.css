@@ -1,0 +1,36 @@
+.profile-screen{  
+    position: absolute;
+    transform: translateY(-10px);
+    margin-left:170px;
+    margin-top: -180px;
+    transform: translateY(-22rem);
+    width: 22rem;
+    margin-bottom:10rem ;
+    box-sizing: border-box;
+}
+.profile-screen input{
+    background-color: #E8E8E8;
+    color: #808080;
+}
+.profile-screen label{
+    color: #5A5A5A;
+    font-size: 11px;
+}
+.profile-form button{
+    margin-top: 2px;
+    margin-bottom: 10px ;
+    width: 17.8rem;
+    height: 2.5rem;
+    background-color: #688b22;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+textarea{
+    position: relative;
+    padding:3px;
+}

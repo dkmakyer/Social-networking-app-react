@@ -61,7 +61,7 @@
     font-weight: 600;
     cursor: pointer;
 }
-form{
+.verification-form{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 303px;
@@ -74,7 +74,7 @@ form{
     padding-bottom: 30px;
     border-radius: 20px;
 }
-form button{
+.verification-form button{
     width: 80px;
     height: 35px;
     border-radius: 10px;
@@ -84,7 +84,7 @@ form button{
     outline: none;
     cursor: pointer;
 }
-form button p{
+.verification-form button p{
     font-size: 9px;
 }
 .symbol{

@@ -9,7 +9,7 @@ const SignupPage = () => {
     <div>
         <div className='page'>
             <h1>Sign in via:</h1>
-            <form action="">
+            <form className='signup-form' action="">
                 <label htmlFor="email">Email:</label><br/>
                 <input type="email" id='email' placeholder='email@gmail.com' />
                 <button className='signupButton'>Get magic code</button>

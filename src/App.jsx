@@ -4,6 +4,7 @@ import BottomScreen from './BottomScreen'
 import Splash from './components/Splash'
 import SignupPage from './containers/signup page/SignupPage'
 import Verification from './containers/verificationPage/Verification'
+import ProfileCreation from './containers/profileCreationPage/ProfileCreation'
 
 
 
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <>
       <TopScreen/>
+      <ProfileCreation/>
       <BottomScreen/>
     </>
   )
