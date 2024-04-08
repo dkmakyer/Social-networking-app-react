@@ -1,0 +1,48 @@
+.friends-page{  
+    position: absolute;
+    margin-left:170px;
+    margin-top: -180px;
+    transform: translateY(-24rem);
+    width: 22rem;
+    margin-bottom:10rem ;
+    box-sizing: border-box;
+}
+.friend-text{
+    font-size: 20px;
+    width: 19rem;
+    margin-bottom: 2rem;
+    font-family: 'Gilroy-bold', sans-serif;
+}
+
+.friend-button{
+    width: 17.8rem;
+    height: 2rem;
+    background-color: #688b22;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateY(5rem);
+}
+.skip{
+    width: 17.8rem;
+    height: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #9E9E9E;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    transform: translateY(5rem);
+}
+.friend-profiles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    width: 18rem;
+}

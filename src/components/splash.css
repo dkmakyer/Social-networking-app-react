@@ -1,25 +1,10 @@
 .splash{
-    margin-left:265px;
-    margin-bottom: -50px;
-    transform: translateY(-22rem);
-
-}
-
-.splash h1{
-    position: relative;
-    background-color: #6B8E23;
-    width: 90px;
-    height: 60px;
-    border-radius: 0% 100% 100% 0% / 0% 72% 84% 57% ;
-}
-
-.splash h1::before{
-    content: "";
-    transform: translateY(50px);
-    margin-left: 20px;
     position: absolute;
-    background-color: #FFA500;
-    width: 90px;
-    height: 60px;
-    border-radius: 0% 100% 100% 0% / 0% 72% 84% 57% ;
+    margin-left:-30rem;
+    transform: translateY(-40rem);
+}
+
+.splash img{
+    width: 100rem;
+    height: 40rem;
 }

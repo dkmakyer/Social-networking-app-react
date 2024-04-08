@@ -1,0 +1,41 @@
+.author-component{
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    padding: 3px;
+    width: 80px;
+    margin-bottom:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.author-component img{
+    transform: translateX(5px);
+    width: 30px;
+    height: 30px;
+}
+.author-name{
+    font-size: 10px;
+    font-weight: 400;
+    transform: translateX(8px);
+}
+.followers{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.books{
+    font-size: 10px;
+    font-weight: 400;
+    transform: translateX(8px);
+}
+.author-component-text button{
+    border-radius: 60px;
+    width: 4.5rem;
+    height: 15px;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FFA500;
+}

@@ -1,0 +1,43 @@
+.genre{  
+    position: absolute;
+    margin-left:170px;
+    margin-top: -180px;
+    transform: translateY(-24rem);
+    width: 22rem;
+    margin-bottom:10rem ;
+    box-sizing: border-box;
+}
+.genre-text{
+    font-size: 22px;
+    width: 19rem;
+    font-family: 'Gilroy-bold', sans-serif;
+}
+.genre form input{
+    font-size: 10px;
+    background-color: #E8E8E8;
+}
+.genre .buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    width: 18rem;
+}
+.genre .buttons button{
+    width: 5rem;
+    height: 3rem;
+    margin-right: 5px;
+}
+.continue-button{
+    width: 17.8rem;
+    height: 2rem;
+    background-color: #688b22;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateY(8rem);
+
+}
