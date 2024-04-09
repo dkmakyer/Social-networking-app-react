@@ -1,0 +1,29 @@
+.navigation-page{  
+    position: absolute;
+    display: flex;
+    margin-bottom: 100px;
+    margin-left:1rem;
+    margin-top: -180px;
+    transform: translateY(12rem);
+    width: 22rem;
+    margin-bottom:10rem ;
+    box-sizing: border-box;
+}
+.navigation-page p{
+    font-size: 10px;
+}
+.home, .discover, .my-library, .profile{
+    margin-right: 2rem;
+}
+.home img{
+    margin-left: 6px;
+}
+.discover img{
+    margin-left: 17px;
+}
+.my-library img{
+    margin-left: 17px;
+}
+.profile img{
+    margin-left: 7px;
+}

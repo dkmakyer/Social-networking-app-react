@@ -1,0 +1,71 @@
+.open-page{  
+    margin-left:170px;
+    margin-top: -20rem;
+    transform: translateY(-18rem);
+    width: 22rem;
+    box-sizing: border-box;
+}
+.cover-image{
+    width: 90px;
+    height: 120px;
+    margin-left: 6.5rem;
+}
+.open-page h1{
+    font-family: 'Goudy Old Style', sans-serif;
+    color: #12b672; 
+    font-size: 25px;
+    font-weight: 400;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rating h3{
+    color: #979595;
+    font-size: 11px;
+    font-family: 'Gilroy-Old-Style', sans-serif;
+
+}
+.rating .rating-right{
+    transform: translateX(-65px);
+}
+.author-intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.author-intro img{
+    width: 30px;
+    height: 30px;
+    transform: translateX(-65px);
+}
+.author-intro h3{
+    color: #c99d0c;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Goudy-Old-Style', sans-serif;
+}
+.main-content h3{
+    max-width: 19rem;
+    font-family: 'Gilroy-Light', sans-serif;
+    color: #979595;
+    font-size: 15px;
+    line-height: 20px;
+}
+.open-page-button{
+    margin-top: 2px;
+    margin-bottom: 1px ;
+    width: 17.8rem;
+    height: 2.5rem;
+    background-color: #688b22;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+.search-page{  
+    margin-left:170px;
+    margin-top: -20rem;
+    transform: translateY(-18rem);
+    width: 22rem;
+    box-sizing: border-box;
+}
+.search-page h1{
+    font-family: 'Goudy Old Style', sans-serif;
+    color: #eebb5c; 
+    font-size: 25px;
+    font-weight: 400;
+}
+.search-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-input input{
+    width: 17.8rem;
+    height: 2.5rem;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    transform: translateX(-23px);
+
+}
+.search-input img{
+    transform: translateX(-50px);
+    opacity: 0.3;
+}
+.topic{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.topic button{
+    min-width: 4rem;
+    height: 2rem;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #484848;
+    color: #9E9E9E;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.new-release, .trending-books{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 279px;
+}
+.new-release h3, .trending-books h3{
+    font-weight: 400;
+    font-size: 19px;
+    font-family: 'Gilroy-Medium', sans-serif;
+
+}
+.new-release button, .trending-books button{
+    min-width: 4rem;
+    height: 2rem;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #9E9E9E;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Gilroy-regular', sans-serif;
+}
+.new-release-images img, .trending-books-images img{
+    width: 90px;
+    height: 90px;
+}
+.new-release{
+    margin-bottom: 1rem;
+
+}
+.trending-books{
+    margin-bottom: 1rem;
+}
+.search-bottom{
+  margin-bottom: 20px;
+}
+
+.search-bottom img{
+    width: 130px;
+    height: -8px;
+    margin-left: 4.5rem;
+    transform: translateY(6.8rem);
+}

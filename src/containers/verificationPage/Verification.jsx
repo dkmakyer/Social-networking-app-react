@@ -34,7 +34,6 @@ const Verification = () => {
                 <button className='symbol'><img src={deleteIcon} alt="image not found" /></button>
             </form>
         </div>
-
     </div>
   )
 }

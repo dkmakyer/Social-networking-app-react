@@ -3,6 +3,7 @@ import LeftArrow from '../../components/left-arrow/LeftArrow'
 import ProfilePage from '../../components/profile-page/ProfilePage'
 import AuthorProfile from '../../components/author-profile/AuthorProfile'
 import "./friends.css"
+import BottomScreen from '../../BottomScreen'
 
 const Friends = () => {
   return (
@@ -20,8 +21,9 @@ const Friends = () => {
                 <AuthorProfile/>
             </div>
             <button className='friend-button'>Continue</button>
-            <button className='skip'>Do this later</button>
+            <button className='friend-skip-button'>Do this later</button>
         </div>
+        
     </div>
   )
 }

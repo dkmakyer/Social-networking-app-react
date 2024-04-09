@@ -7,12 +7,13 @@
 
 body{
     position: relative;
-    background-color: rgb(235, 235, 245);
+    background-color:  #7e786d;
     max-width: 300px;
 }
 
 .main-screen{
-    background-color: #F5F5F5;
+    position: relative;
+    background-color: #cfcfcf;
     min-width:19rem;
     min-height: 36rem;
     margin:5rem 10rem;
@@ -44,5 +45,5 @@ body{
     width: 130px;
     height: -8px;
     margin-left: 17px;
-    transform: translateY(-20px);
+    transform: translateY(5px);
 }

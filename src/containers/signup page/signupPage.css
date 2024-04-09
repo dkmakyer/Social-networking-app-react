@@ -1,4 +1,6 @@
-
+*{
+    font-family: "Gilroy-Light", sans-serif;
+}
 .page{
     position: absolute;
     transform: translateY(-10px);
@@ -7,12 +9,13 @@
     transform: translateY(-22rem);
     width: 15rem;
     margin-bottom:10rem ;
-    font-family: "Nunito", sans-serif;
 }
 .page h1{
     font-size: 23px;
     margin-bottom: 40px;
     color: #3f4d24;
+    font-family: 'Gilroy-Medium', sans-serif;
+
 }
 input{
     background-color: #cccccc;
@@ -22,9 +25,13 @@ input{
     outline: none;
     border: none;
     padding: 10px;
+    font-family: 'Gilroy-Light', sans-serif;
+
 }
 label{
     color: #6B8E23;
+    font-family: 'Gilroy-Light', sans-serif;
+
 }
 .signupButton{
     margin-top: 2rem;
@@ -39,6 +46,8 @@ label{
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
+    font-family: 'Gilroy-Regular', sans-serif;
+
 
 }
 .divider{
@@ -47,14 +56,14 @@ label{
     justify-content: space-between;
 }
 .line1{
-    border: 1px solid #cccccc;
-    min-width: 8rem;
+    border: 1px solid #e7e7e7;
+    min-width: 7rem;
     margin-left: 3px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .line2{
-    border: 1px solid #cccccc;
-    min-width: 7.6rem;
+    border: 1px solid #e7e7e7;
+    min-width: 7rem;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -69,7 +78,6 @@ label{
     margin-bottom: 10px;
     color: #8d8787;
     background-color: #cccccc;
-    
     width: 17.8rem;
     height: 2rem;
     outline: none;
@@ -78,6 +86,8 @@ label{
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
+    font-family: 'Gilroy-Regular', sans-serif;
+
 }
 img{
     width: 15px;

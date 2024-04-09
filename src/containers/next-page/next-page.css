@@ -1,0 +1,63 @@
+.next-page{  
+    margin-left:170px;
+    margin-top: -20rem;
+    transform: translateY(-18rem);
+    width: 22rem;
+    box-sizing: border-box;
+    max-width: 18.4rem;
+}
+.top-title{
+    display: flex;
+}
+.book-title{
+    font-family: 'Goudy Old Style', sans-serif;
+    color: #e7af14; 
+    font-size: 25px;
+    font-weight: 400;
+}
+.top-title img{
+    margin-left: 2rem;
+}
+.next-page h3{
+    font-size: 10px;
+    color: #9A9A9A;
+}
+.next-page h4{
+    font-size: 13px;
+    color: #9A9A9A;
+    font-weight: 400;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+.reading-progress{
+    border:none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-left: -10px;
+}
+.reading-progress h1{
+    height: 10px;
+    border-radius: 10px;
+    background-color: #7D7D7D;
+    opacity: 0.3;
+    margin-top: 8px;
+    width: 17rem;
+    margin-left: 10px
+}
+.reading-progress h2{
+    height: 10px;
+    width: 5rem;
+    transform: translateY(-10px);
+    border-radius: 10px;
+    background-color: #A5F00F;
+    margin-left: 10px
+}
+.reading-progress h4{
+    color: #e7af14;
+    font-size: 11px;
+}
+.page-no{
+    margin-left: 14rem;
+}
+.current-chapter{
+    margin-left: 10px;
+}

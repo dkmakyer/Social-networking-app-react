@@ -8,6 +8,11 @@
     margin-bottom:10rem ;
     box-sizing: border-box;
 }
+.profile-screen h2{
+    font-weight: 400;
+    font-family: 'Goudy Old Style', sans-serif;
+
+}
 .profile-screen input{
     background-color: #E8E8E8;
     color: #808080;
@@ -17,7 +22,7 @@
     font-size: 11px;
 }
 .profile-form button{
-    margin-top: 2px;
+    margin-top: 30px;
     margin-bottom: 10px ;
     width: 17.8rem;
     height: 2.5rem;

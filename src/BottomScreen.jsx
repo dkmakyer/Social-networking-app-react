@@ -6,7 +6,7 @@ const BottomScreen = () => {
     <div>
       <div className="bottom-screen">
           <img src={bar} alt="image not found" />
-        </div>
+      </div>
     </div>
   )
 }

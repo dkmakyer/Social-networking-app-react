@@ -27,7 +27,7 @@
     cursor: pointer;
     transform: translateY(5rem);
 }
-.skip{
+.friend-skip-button{
     width: 17.8rem;
     height: 2rem;
     background-color: transparent;
