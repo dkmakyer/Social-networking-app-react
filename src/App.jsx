@@ -12,16 +12,31 @@ import Search from './containers/book-search/Search'
 import LibraryPage from './containers/library-page/LibraryPage'
 import OpenPage from './containers/open-page/OpenPage'
 import NextPage from './containers/next-page/NextPage'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 
 const App = () => {
   return (
-    <>
-      <TopScreen/>
-      <SignupPage/>
-    </>
+    <BrowserRouter>
+      <TopScreen />
+      <Routes>
+      <Route path="/" element={<Splash />} />
+        <Route path="/splash" element={<Splash />} />
+        <Route path="/sign-up" element={<SignupPage />} />
+        <Route path="/verification" element={<Verification />} />
+        <Route path="/profile-creation" element={<ProfileCreation />} />
+        <Route path="/genre" element={<Genre />} />
+        <Route path="/authors" element={<Authors />} />
+        <Route path="/friends" element={<Friends />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/library" element={<LibraryPage />} />
+        <Route path="/open-page" element={<OpenPage />} />
+        <Route path="/next-page" element={<NextPage />} />
+      </Routes>
+    </BrowserRouter>
+
   )
 }
 export default App 

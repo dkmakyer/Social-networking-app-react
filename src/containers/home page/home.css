@@ -36,6 +36,7 @@
     width: 18rem;
     height: 6rem;
     padding: 20px;
+    border-radius: 10px;
 }
 .current-read h4{
     font-family: 'Gilroy-Regular', sans-serif;
