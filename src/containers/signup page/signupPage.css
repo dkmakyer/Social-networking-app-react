@@ -1,6 +1,9 @@
 *{
     font-family: "Gilroy-Light", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .page{
     position: absolute;
     transform: translateY(-10px);
